@@ -1,0 +1,42 @@
+Read me
+-Install Python on Windows
+	python.org/downloads
+-Install Selenium for python
+	from python installation location o CMD type ' pip install -U Selenium
+-Install Pycharm
+-Configure Pycharm with Selenium library
+-Download Borwser specific selenium driver
+	for this Framework I'm using ChromeDriver
+-Associate your seleniumdrivers on environment PATH variable
+-Packages to be imported:
+	From Selenium import Webdriver
+	From Selenium.webdriver.common.keys import Keys
+-Install HTML test runner
+	from command line execute: pip install html-testRunner
+
+Before running The PyCharm automated suite:
+
+***Update setup class with**:
+your local executable path for your browser webdriver
+	this is what will open the browser, without this no test cases can be executed
+
+Run modes:
+*Test suites run
+1. Go to Test suite package
+2. Go to All_TestSuites python file
+3. Right click on the main screen
+4. click on 'Run 'All Test suites'
+
+*Detailed run
+1. Go to Python Project
+2. Go to Package 1
+3. Go to ChromeAPTest.py
+4. Go to ContactUs_AutomationPractice class
+5. Right click
+6. Select Run 'Unittests for Chrome
+this will show a detailed view of the execution
+
+*Change the HTML runner File path output to your local machine
+this is configured down on ChromeAPtest.py file on init constructor
+
+--Details on each test case are housed on Package1.ChromeAPTest.py
