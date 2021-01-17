@@ -1,0 +1,17 @@
+atomicwrites==1.4.0
+attrs==20.3.0
+colorama==0.4.4
+htmlrunner==0.13
+HTMLTestRunner-Python3==0.8.0
+iniconfig==1.1.1
+Jinja2==2.11.2
+logz==0.15
+MarkupSafe==1.1.1
+packaging==20.8
+pluggy==0.13.1
+py==1.10.0
+pyparsing==2.4.7
+pytest==6.2.1
+selenium==3.141.0
+toml==0.10.2
+urllib3==1.26.2
